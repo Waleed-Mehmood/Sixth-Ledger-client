@@ -1,0 +1,156 @@
+.aboutus-section {
+    padding: 50px 0;
+  }
+
+  .about-img-group {
+    position: relative;
+  }
+
+  .about-img-group .main-img {
+    border-radius: 15px;
+    width: 100%;
+  }
+
+  .about-img-group .overlay-img {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    border-radius: 15px;
+    width: 150px;
+    border: 5px solid white;
+  }
+
+  .stats-box {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .stats-box h5 {
+    color: #ff5a3c;
+    margin-bottom: 0;
+  }
+
+  .stats-box p {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+
+  .about-content {
+    padding-top: 20px;
+  }
+
+  .aboutus-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .about-subtitle {
+    color: #ff5a3c;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .about-icon {
+    font-size: 2rem;
+    color: #ff5a3c;
+    margin-right: 10px;
+  }
+
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .divider {
+    height: 1px;
+    background-color: #ddd;
+  }
+  .clients-section {
+    padding: 50px 0;
+  }
+
+  .client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .client-logo img {
+    max-width: 180px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .client-logo img:hover {
+    transform: scale(1.1);
+  }
+
+  .team-section {
+    padding: 50px 0;
+  }
+
+  .team-card {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.4s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+
+  .team-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .team-info {
+    background: linear-gradient(to top, #ff8159, #ff805997);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+
+  .team-card:hover .team-info {
+    bottom: 40px;
+  }
+
+  .social-icons {
+    display: none;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .team-card:hover .social-icons {
+    display: block;
+  }
+
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    color: #ff8159; /* Bootstrap primary color */
+  }
