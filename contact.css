@@ -59,3 +59,34 @@
     }
   }
   
+
+  .contact-form {
+    max-width: 800px;
+    margin: 50px auto;
+    background: transparent;
+    padding-bottom: 50px;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .form-control:focus {
+    border-color: #ff7e58;
+    box-shadow: 0 0 5px rgba(255, 126, 88, 0.5);
+    outline: none;
+  }
+
+  .btn-submit {
+
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+
