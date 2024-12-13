@@ -104,7 +104,7 @@ body {
   .rating-badge {
     display: inline-flex;
     align-items: center;
-    background-color: #fffbfb;
+    background-color: #f1ebed;
     padding: 0.5rem 1rem;
     border-radius: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -135,7 +135,7 @@ body {
     padding: 60px 20px;
   }
   .about-title {
-    color: #ff5a3c;
+    color: #f1ebed;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -144,10 +144,10 @@ body {
   .about-heading {
     font-size: 3rem;
     font-weight: 700;
-    color: #1e1e1e;
+    color: #f1ebed;
   }
   .about-text {
-    color: #5a5a5a;
+    color: #f1ebed;
     font-size: 1rem;
     line-height: 1.8;
   }
@@ -173,7 +173,7 @@ body {
     position: absolute;
     bottom: 20px;
     left: 45%;
-    background-color: #ff805b;
+    background-color:  #212427;
     color: #fff;
     padding: 10px 20px;
     border-radius: 30px;
@@ -185,9 +185,9 @@ body {
     text-decoration: none;
   }
   .play-btn:hover {
-    background-color: #212427;
+    background-color: #f1ebed;
     cursor: pointer;
-    color: white;
+    color: #212427;
   }
   .play-btn i {
     margin-right: 10px;
@@ -204,19 +204,21 @@ body {
     text-align: start;
     padding: 20px;
     transition: background-color 0.3s ease;
+    background-color: #202427;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    
   }
 
   .icon-section:hover {
-    background-color: #f8f9fa; /* Light gray background on hover */
+    background-color: #f1ebed; /* Light gray background on hover */
     
   }
 
   .icon-circle {
-    background-color: #ff5a3c; /* Initial icon background */
+    background-color: #212427 !important; 
     width: 60px;
     height: 60px;
     display: flex;
@@ -238,12 +240,18 @@ body {
 
   .icon-text {
     font-size: 16px;
-    color: #333;
+    color: #fdfdfd;
     /* font-weight: bolder; */
   }
+  .icon-text:hover {
+    font-size: 16px;
+    color: #212427;
+    /* font-weight: bolder; */
+  }
+  
 
   .info-box {
-    background-color: #f8f9fa;
+    background-color: #f1ebed;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -254,8 +262,13 @@ body {
     border-radius: 20px;
     object-fit: cover;
   }
+  .back-color{
+    background-color: #202427;
+    padding: 2rem;
+    border-radius: 17px;
+  }
   .info-title {
-    color: #ff6f61;
+    color: #f1ebed;
     font-weight: bold;
     font-size: 1.1rem;
   }
@@ -265,16 +278,16 @@ body {
     color: #212529;
   }
   .upper-why-section{
-    background-color: #f9fbfc;
+    background-color: #33373a;
   }
   
   .why-section {
-    background-color: #f9fbfc; /* Light background for the section */
+    background-color: #202427; /* Light background for the section */
     padding: 60px 20px;
   }
 
   .why-header {
-    color: #ff6f61; /* Highlighted text color */
+    color: #f1ebed; /* Highlighted text color */
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.9rem;
@@ -284,15 +297,18 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 10px;
+    color: #f1ebed;
+    
   }
 
   .why-description {
-    color: #6c757d;
+    color: #f1ebed;
     font-size: 1rem;
     line-height: 1.7;
   }
   .upper-bg-image-section{
     border-radius: 1000px;
+    padding-top: 40px;
   }
 
   .bg-image-section {
@@ -309,7 +325,7 @@ body {
     bottom: 20px;
     left: 0;
     width: 100%;
-    color: white;
+    color: #f1ebed;
     padding: 0 20px;
   
   }
@@ -318,7 +334,7 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: white;
+    color: #f1ebed;
     z-index: 200;
   }
 
@@ -326,7 +342,7 @@ body {
     font-size: 1.8rem;
     font-weight: 500;
     text-align: right;
-    color: white;
+    color: #f1ebed;
     z-index: 200;
 
   }
@@ -349,7 +365,7 @@ body {
 
   .custom-card {
     position: relative;
-    background-color: white;
+    background-color: #f1ebed;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
@@ -409,7 +425,7 @@ body {
   }
 
   .why-us-title {
-    color: #ff5a3c;
+    color: #f1ebed;
     font-weight: 700;
     margin-bottom: 15px;
   }
@@ -417,20 +433,21 @@ body {
   .why-us-heading {
     font-size: 2.5rem;
     font-weight: 700;
+    color: #f1ebed;
   }
 
   .why-us-text {
-    color: #6c757d;
+    color: #f1ebed;
   }
 
   .counter-number {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    color: #f1ebed;
   }
 
   .counter-label {
-    color: #6c757d;
+    color: #f1ebed;
     font-size: 1rem;
   }
 
@@ -440,8 +457,8 @@ body {
   }
 
   .cta-section {
-    background-color: #ff8159;
-    color: white;
+    background-color: #202427;
+    color: #f1ebed;
     padding: 40px 20px;
     display: flex;
     justify-content: space-between;
@@ -455,8 +472,8 @@ body {
   }
 
   .cta-btn {
-    background-color: white;
-    color: #ff5a3c;
+    background-color: #f1ebed;
+    color: #202427;
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 25px;
@@ -481,10 +498,10 @@ body {
   }
 
   .service-card {
-    background-color: #ff7f50;
+    background-color: #202427;
     padding: 20px;
     border-radius: 8px;
-    color: white;
+    color: #f1ebed;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   
@@ -499,7 +516,7 @@ body {
   
 
   .pricing-card {
-    background-color: #fff;
+    background-color: #f1ebed;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -508,13 +525,13 @@ body {
   
   .pricing-card:hover {
     transform: translateY(-5px);
-    background-color: #f9f9f9;
+    background-color: #f1ebedec;
   }
   
   .icon-container {
     width: 80px;
     height: 80px;
-    background-color: #ff7f50;
+    background-color: #202427;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,15 +566,15 @@ body {
   }
   
   .footer .btn-orange {
-    background-color: #ff7f50;
-    color: white;
+    background-color: #cccccc;
+    color: #202427;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
   }
   
   .footer .btn-orange:hover {
-    background-color: #e65c2a;
+    background-color: #dcd9da;
   }
   
   .footer a {
@@ -569,6 +586,7 @@ body {
   }
   
   .blog-card {
+    background-color: #f1ebed;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
