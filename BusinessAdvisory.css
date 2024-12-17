@@ -1,272 +1,272 @@
  /* Background styles */
  .header-section {
-    background-color: #f9fafe;
-    border-radius: 20px;
-    padding: 40px 20px;
-    position: relative;
-    text-align: center;
-  }
-
-  /* Decorative background shape */
-  .header-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 50%, transparent 100%);
-    z-index: 0;
-  }
-
-  /* Section title */
-  .header-section h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #222831;
-    z-index: 1;
-    position: relative;
-  }
-
-  /* Breadcrumb container */
-  .header-section .breadcrumb {
-    display: inline-block;
-    background-color: #ff7e58;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 10px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .header-section .breadcrumb a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .header-section .breadcrumb a:hover {
-    text-decoration: underline;
-  }
-
-  /* Decorative circle */
-  .decorative-circle {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #ff7e58;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    z-index: 1;
-    position: relative;
-  }
-
-  .decorative-circle::before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    background-color: #ff7e58;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .scrollable-left {
-    max-height: 100vh;
-    overflow-y: scroll; /* Scrolling enabled */
-    scrollbar-width: none; /* Hides scrollbar in Firefox */
-  }
-
-  .scrollable-left::-webkit-scrollbar {
-    display: none; /* Hides scrollbar in Chrome, Safari, Edge */
-  }
-
-  .fixed-right {
-    position: sticky;
-    top: 20px; /* Adjust spacing from the top */
-  }
-
-  .service-list a {
-    text-decoration: none;
-    color: #ff7e58;
-  }
-
-  .service-list a:hover {
-    text-decoration: underline;
-  }
-
-  .icon-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
-    margin-top: 20px;
-  }
-
-  .icon-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ff7e58;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-  }
-
-  /* General Styles */
-.services-section {
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .service-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    border: none;
-    border-radius: 6px;
-    padding: 12px 20px;
-    margin-bottom: 8px;
-    cursor: pointer;
-    color: #333;
-    font-weight: 500;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .service-item:hover {
-    background-color: #ff7f50;
-    color: #fff;
-  }
-  
-  .service-arrow {
-    color: #ff7f50;
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-  }
-  
-  .service-item:hover .service-arrow {
-    color: #fff;
-  }
-  
-
-  /* Custom Styles */
-  .help-card {
-    max-width: 600px;
-    /* border-radius: 30px; */
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-    background-image: url('assets/service-img-3.jpg'); /* Replace with your background image URL */
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-  }
-
-  .help-card h5 {
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
-  }
-
-  .btn-custom {
-    background-color: #f75c3c; /* Orange color */
-    color: white;
-    padding: 10px 20px;
-    font-weight: bold;
-    border-radius: 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-  }
-
-  .btn-custom:hover {
-    background-color: #e0492e; /* Darker orange on hover */
-    color: white;
-    transform: translateY(-2px);
-  }
-.same-text-service{
-    line-height: 1.6em;
-    color: #4a5567;
-    font-size: 0.9rem;
-    margin: 10px 0;
+  background-color: #efe9eb;
+  border-radius: 20px;
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
 }
 
-.feature-box {
-  background-color: #f8faff;
-  border-radius: 15px;
-  padding: 20px;
+/* Decorative background shape */
+.header-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 50%, transparent 100%);
+  z-index: 0;
+}
+
+/* Section title */
+.header-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222831;
+  z-index: 1;
+  position: relative;
+}
+
+/* Breadcrumb container */
+.header-section .breadcrumb {
+  display: inline-block;
+  background-color: #202427;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.header-section .breadcrumb a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header-section .breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Decorative circle */
+.decorative-circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #202427;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.decorative-circle::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #202427;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scrollable-left {
+  max-height: 100vh;
+  overflow-y: scroll; /* Scrolling enabled */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+.scrollable-left::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, Edge */
+}
+
+.fixed-right {
+  position: sticky;
+  top: 20px; /* Adjust spacing from the top */
+}
+
+.service-list a {
+  text-decoration: none;
+  color: #202427;
+}
+
+.service-list a:hover {
+  text-decoration: underline;
+}
+
+.icon-box {
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.feature-box:hover {
-  transform: translateY(-5px);
+  gap: 10px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 .icon-circle {
-  background-color: #ff7e56;
-  color: #fff;
-  width: 110px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  background-color: #202427;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 30px;
-  margin-right: 15px;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* General Styles */
+.services-section {
+  background-color: #202427;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efe9eb;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-item:hover {
+  background-color: #efe9eb;
+  color: #000000;
+}
+
+.service-arrow {
+  color: #151515;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.service-item:hover .service-arrow {
+  color: #fff;
+}
+
+
+/* Custom Styles */
+.help-card {
+  max-width: 600px;
+  /* border-radius: 30px; */
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-image: url('assets/service-img-3.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.help-card h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn-custom {
+  background-color: #000000; /* Orange color */
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #000000; /* Darker orange on hover */
+  color: white;
+  transform: translateY(-2px);
+}
+.same-text-service{
+  line-height: 1.6em;
+  color: #ede7e9;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.feature-box {
+background-color: #ede7e9;
+border-radius: 15px;
+padding: 20px;
+display: flex;
+align-items: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s;
+}
+
+.feature-box:hover {
+transform: translateY(-5px);
+}
+
+.icon-circle {
+background-color: #efe9eb;
+color: #fff;
+width: 110px;
+height: 70px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+margin-right: 15px;
 }
 .icon-circle-second {
-  background-color: #ff7e56;
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  margin-right: 15px;
+background-color: #0c0c0c;
+color: #fff;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+margin-right: 15px;
 }
 
 .feature-text h5 {
-  margin: 0;
-  font-size: 18px;
-  /* font-weight: bold; */
+margin: 0;
+font-size: 18px;
+/* font-weight: bold; */
 }
 
 .feature-text p {
-  margin: 0;
-  color: #6c757d;
-  font-size: 0.9rem;
+margin: 0;
+color: #6c757d;
+font-size: 0.9rem;
 }
 
 .rounded-image {
-  border-radius: 15px;
-  width: 100%;
-  height: auto;
+border-radius: 15px;
+width: 100%;
+height: auto;
 }
 
 .benefit-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 15px;
+display: flex;
+align-items: center;
+margin-bottom: 15px;
 }
 
 .benefit-item i {
-  color: #f87272;
-  font-size: 20px;
-  margin-right: 10px;
+color: #020202;
+font-size: 20px;
+margin-right: 10px;
 }
 
 .benefit-text {
-  font-size: 13px;
-  color: #6c757d;
+font-size: 13px;
+color: #ede7e9;
 }

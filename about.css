@@ -47,15 +47,18 @@
   .aboutus-title {
     font-size: 2.5rem;
     font-weight: bold;
+    color: #f1ebed;
   }
 
   .about-subtitle {
-    color: #ff5a3c;
+    color: #f1ebed;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-
+  .same-text-color{
+    color: #f1ebed;
+  }
   .about-icon {
     font-size: 2rem;
     color: #ff5a3c;
@@ -116,7 +119,7 @@
   }
 
   .team-info {
-    background: linear-gradient(to top, #ff8159, #ff805997);
+    background: linear-gradient(to top, #212429, #33373a);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -152,5 +155,24 @@
   }
 
   .social-icons a:hover {
-    color: #ff8159; /* Bootstrap primary color */
+    color: #cecece; /* Bootstrap primary color */
   }
+
+.extra-read-more {
+  background: linear-gradient(to right, #202427 50%, #212427 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  color: #202427;
+  border-radius: 7px;
+  padding: 8px 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: background-position 0.4s ease, color 0.3s ease;
+}
+
+.extra-read-more:hover {
+  background-position: right bottom;
+  color: #fff;
+}
